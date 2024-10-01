@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Layouts</title>
+    <title>Basic Layouts</title>
+    <style>
+        .container {
+            width: 1080px;
+            margin: auto;
+        }
+        .header {
+            width: inherit;
+            height: 300px;
+            background-color: #aaaadf;
+        }
+        .navbar {
+            width: inherit;
+            height: 75px;
+            background-color: #ddffdd;
+        }
+        .content {
+            width: 540px;
+            height: 400px;
+            background-color: #af1010;
+            /* Makes the components float instead of stack */
+            float: left;
+        }
+        .footer {
+            width: inherit;
+            height: 100%;
+            background-color: #0904ff;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="container">
+        <div class="header">Header</div>
+
+        <div class="navbar">Navbar</div>
+
+        <div class="content">Content1</div>
+
+        <div class="content">Content2</div>
+
+        <div class="footer">Footer</div>
+    </div>
 
 </body>
 </html>
