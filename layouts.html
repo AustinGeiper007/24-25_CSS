@@ -13,11 +13,6 @@
             height: 300px;
             background-color: #aaaadf;
         }
-        .navbar {
-            width: inherit;
-            height: 75px;
-            background-color: #ddffdd;
-        }
         .content {
             width: 540px;
             height: 400px;
@@ -30,6 +25,28 @@
             height: 100%;
             background-color: #0904ff;
         }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 14px 16px
+        }
+        li a:hover {
+            background-color: #555;
+        }
+        .active {
+            color: yellow;
+        }
     </style>
 </head>
 
@@ -37,7 +54,13 @@
     <div class="container">
         <div class="header">Header</div>
 
-        <div class="navbar">Navbar</div>
+        <div class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+        </div>
 
         <div class="content">Content1</div>
 
