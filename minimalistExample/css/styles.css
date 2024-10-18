@@ -16,6 +16,7 @@ ul {
     vertical-align: bottom;
     /* background-color: #333; */
 }
+
 li {
     float: right;
     vertical-align: bottom;
@@ -32,9 +33,11 @@ li a {
     padding: 14px 16px;
     vertical-align: bottom;
 }
+
 li a:hover {
     text-decoration: underline #000;
 }
+
 /* Navbar style end */
 
 #footerContainer {
